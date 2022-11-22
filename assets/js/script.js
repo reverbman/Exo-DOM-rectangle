@@ -44,7 +44,7 @@ rectangle.addEventListener("mouseover", addImgSmile);
 rectangle.addEventListener("mouseleave", addImgSerious);
 rectangle.addEventListener("dblclick", addImgLaugh);
 
-/**4- BOUCLES */
+
 
 
 
