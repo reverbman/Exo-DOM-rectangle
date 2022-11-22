@@ -1,3 +1,3 @@
 # Exo-DOM-rectangle
 
-## [Start](https://reverbman.github.io/Exo-DOM-rectangle/)
+## [(☞ﾟヮﾟ)☞ Start ☜(ﾟヮﾟ☜)](https://reverbman.github.io/Exo-DOM-rectangle/)
