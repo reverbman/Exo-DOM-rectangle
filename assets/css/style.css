@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:url('../img/overlay.png'), url(https://image.noelshack.com/fichiers/2014/42/1413390857-18-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+h1{
+    height: 70px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main{
+    width: 100vw;
+}
+#mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rectangle{
+    width: 400px;
+    height:300px;
+    margin-left: 39%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+.start{
+    background-image:url(https://risibank.fr/cache/medias/0/1/136/13606/full.png);
+    background-size: 400px;
+    background-position: 20%;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.serious{
+    background-image:  url('https://risibank.fr/cache/medias/0/1/136/13606/full.png');
+    background-size: 400px;
+    background-position: 20%;
+    border-radius: 5px;
+}
+.smile{
+    background-image: url('https://cdn.unitycms.io/images/BnmkYovma0pB_STaH5ibkC.jpg?op=focus&val=1200,1200,1000,1000,0,0,500,500&sum=BDAVfHQMwMs');
+    background-size: 400px;
+    background-position: 20%;
+    border-radius: 5px;
+
+}
+.laugh{
+    background-image: url('https://i.makeagif.com/media/8-03-2019/b8uliC.gif');
+    background-size: 620px;
+    background-position: 20%;
+    border-radius: 5px;
+    animation: rotate 0.5s infinite linear;
+
+
+}
+#toogleRectangle{
+    width: 400px;
+    height: 50px;
+    margin-left: 39%;
+    margin-bottom: 35px;
+    margin-top: 50px;
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+#toogleRectangle:disabled {
+  pointer-events: none;
+}
+
+#toogleRectangle:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#toogleRectangle:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.hidden{
+    animation: scalereverse 0.5s forwards; 
+    opacity: 1;
+}
+.displayed {
+    animation: scalenormal 0.5s forwards;
+    opacity: 1;
+}
+
+
+
+@keyframes scalereverse {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        display: none;
+        height: 0;
+    }
+}
+@keyframes scalenormal {
+    0%{
+        opacity: 0 ;
+        height: 0;
+    }
+    100%{
+        display: block;
+        height: 300px;
+    }
+}
+@keyframes rotate{
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+    }
+}
